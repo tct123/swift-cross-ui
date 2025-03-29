@@ -76,6 +76,7 @@
       },
       {
         "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:12SwiftCrossUI10AppBackendP6WindowQa",
         "text" : "Window"
       },
       {
@@ -88,6 +89,10 @@
         "name" : "SwiftCrossUI"
       }
     ],
+    "remoteSource" : {
+      "fileName" : "AppBackend.swift",
+      "url" : "https:\/\/github.com\/stackotter\/swift-cross-ui\/blob\/main\/Sources\/SwiftCrossUI\/Backend\/AppBackend.swift#L155"
+    },
     "required" : true,
     "role" : "symbol",
     "roleHeading" : "Instance Method",
@@ -102,7 +107,7 @@
             "swift"
           ],
           "platforms" : [
-            "Linux"
+            "macOS"
           ],
           "tokens" : [
             {
@@ -138,7 +143,9 @@
               "text" : "."
             },
             {
+              "identifier" : "doc:\/\/SwiftCrossUI\/documentation\/SwiftCrossUI\/AppBackend\/Window",
               "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:12SwiftCrossUI10AppBackendP6WindowQa",
               "text" : "Window"
             },
             {
@@ -176,7 +183,7 @@
 "doc://SwiftCrossUI/documentation/SwiftCrossUI": {
   "abstract" : [
     {
-      "text" : "Create cross-platform desktop apps for macOS, Linux and Windows.",
+      "text" : "Create cross-platform desktop apps for macOS, Linux, Windows, iOS and tvOS.",
       "type" : "text"
     }
   ],
@@ -220,6 +227,32 @@
   "title" : "AppBackend",
   "type" : "topic",
   "url" : "\/documentation\/swiftcrossui\/appbackend"
+},
+"doc://SwiftCrossUI/documentation/SwiftCrossUI/AppBackend/Window": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "associatedtype"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "Window"
+    }
+  ],
+  "identifier" : "doc:\/\/SwiftCrossUI\/documentation\/SwiftCrossUI\/AppBackend\/Window",
+  "kind" : "symbol",
+  "required" : true,
+  "role" : "symbol",
+  "title" : "Window",
+  "type" : "topic",
+  "url" : "\/documentation\/swiftcrossui\/appbackend\/window"
 },
 "doc://SwiftCrossUI/documentation/SwiftCrossUI/AppBackend/show(window:)": {
   "abstract" : [
@@ -284,6 +317,7 @@
     },
     {
       "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:12SwiftCrossUI10AppBackendP6WindowQa",
       "text" : "Window"
     },
     {

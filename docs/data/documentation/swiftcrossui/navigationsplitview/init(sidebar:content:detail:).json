@@ -39,7 +39,7 @@
       },
       {
         "kind" : "typeIdentifier",
-        "text" : "SideBar"
+        "text" : "Sidebar"
       },
       {
         "kind" : "text",
@@ -83,6 +83,10 @@
         "name" : "SwiftCrossUI"
       }
     ],
+    "remoteSource" : {
+      "fileName" : "NavigationSplitView.swift",
+      "url" : "https:\/\/github.com\/stackotter\/swift-cross-ui\/blob\/main\/Sources\/SwiftCrossUI\/Views\/NavigationSplitView.swift#L30"
+    },
     "role" : "symbol",
     "roleHeading" : "Initializer",
     "symbolKind" : "init",
@@ -96,7 +100,7 @@
             "swift"
           ],
           "platforms" : [
-            "Linux"
+            "macOS"
           ],
           "tokens" : [
             {
@@ -131,7 +135,7 @@
             },
             {
               "kind" : "typeIdentifier",
-              "text" : "SideBar"
+              "text" : "Sidebar"
             },
             {
               "kind" : "text",
@@ -228,7 +232,7 @@
 "doc://SwiftCrossUI/documentation/SwiftCrossUI": {
   "abstract" : [
     {
-      "text" : "Create cross-platform desktop apps for macOS, Linux and Windows.",
+      "text" : "Create cross-platform desktop apps for macOS, Linux, Windows, iOS and tvOS.",
       "type" : "text"
     }
   ],
@@ -299,7 +303,7 @@
     },
     {
       "kind" : "typeIdentifier",
-      "text" : "SideBar"
+      "text" : "Sidebar"
     },
     {
       "kind" : "text",

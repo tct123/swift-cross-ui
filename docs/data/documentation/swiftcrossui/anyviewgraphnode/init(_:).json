@@ -68,6 +68,10 @@
         "name" : "SwiftCrossUI"
       }
     ],
+    "remoteSource" : {
+      "fileName" : "AnyViewGraphNode.swift",
+      "url" : "https:\/\/github.com\/stackotter\/swift-cross-ui\/blob\/main\/Sources\/SwiftCrossUI\/ViewGraph\/AnyViewGraphNode.swift#L32"
+    },
     "role" : "symbol",
     "roleHeading" : "Initializer",
     "symbolKind" : "init",
@@ -81,7 +85,7 @@
             "swift"
           ],
           "platforms" : [
-            "Linux"
+            "macOS"
           ],
           "tokens" : [
             {
@@ -195,7 +199,7 @@
 "doc://SwiftCrossUI/documentation/SwiftCrossUI": {
   "abstract" : [
     {
-      "text" : "Create cross-platform desktop apps for macOS, Linux and Windows.",
+      "text" : "Create cross-platform desktop apps for macOS, Linux, Windows, iOS and tvOS.",
       "type" : "text"
     }
   ],
@@ -478,7 +482,7 @@
       "type" : "text"
     },
     {
-      "identifier" : "doc:\/\/SwiftCrossUI\/documentation\/SwiftCrossUI\/VariadicView1",
+      "identifier" : "doc:\/\/SwiftCrossUI\/documentation\/SwiftCrossUI\/TupleView1",
       "isActive" : true,
       "type" : "reference"
     },
@@ -491,7 +495,7 @@
       "type" : "text"
     },
     {
-      "identifier" : "doc:\/\/SwiftCrossUI\/documentation\/SwiftCrossUI\/VariadicView2",
+      "identifier" : "doc:\/\/SwiftCrossUI\/documentation\/SwiftCrossUI\/TupleView2",
       "isActive" : true,
       "type" : "reference"
     },

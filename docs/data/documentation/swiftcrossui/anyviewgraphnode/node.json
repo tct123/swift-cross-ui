@@ -1,7 +1,7 @@
 {
   "abstract" : [
     {
-      "text" : "The number getting wrapped.",
+      "text" : "The node getting wrapped.",
       "type" : "text"
     }
   ],
@@ -47,6 +47,10 @@
         "name" : "SwiftCrossUI"
       }
     ],
+    "remoteSource" : {
+      "fileName" : "AnyViewGraphNode.swift",
+      "url" : "https:\/\/github.com\/stackotter\/swift-cross-ui\/blob\/main\/Sources\/SwiftCrossUI\/ViewGraph\/AnyViewGraphNode.swift#L7"
+    },
     "role" : "symbol",
     "roleHeading" : "Instance Property",
     "symbolKind" : "property",
@@ -60,7 +64,7 @@
             "swift"
           ],
           "platforms" : [
-            "Linux"
+            "macOS"
           ],
           "tokens" : [
             {
@@ -114,7 +118,7 @@
 "doc://SwiftCrossUI/documentation/SwiftCrossUI": {
   "abstract" : [
     {
-      "text" : "Create cross-platform desktop apps for macOS, Linux and Windows.",
+      "text" : "Create cross-platform desktop apps for macOS, Linux, Windows, iOS and tvOS.",
       "type" : "text"
     }
   ],
@@ -209,7 +213,7 @@
 "doc://SwiftCrossUI/documentation/SwiftCrossUI/AnyViewGraphNode/node": {
   "abstract" : [
     {
-      "text" : "The number getting wrapped.",
+      "text" : "The node getting wrapped.",
       "type" : "text"
     }
   ],
@@ -342,7 +346,7 @@
       "type" : "text"
     },
     {
-      "identifier" : "doc:\/\/SwiftCrossUI\/documentation\/SwiftCrossUI\/VariadicView1",
+      "identifier" : "doc:\/\/SwiftCrossUI\/documentation\/SwiftCrossUI\/TupleView1",
       "isActive" : true,
       "type" : "reference"
     },
@@ -355,7 +359,7 @@
       "type" : "text"
     },
     {
-      "identifier" : "doc:\/\/SwiftCrossUI\/documentation\/SwiftCrossUI\/VariadicView2",
+      "identifier" : "doc:\/\/SwiftCrossUI\/documentation\/SwiftCrossUI\/TupleView2",
       "isActive" : true,
       "type" : "reference"
     },

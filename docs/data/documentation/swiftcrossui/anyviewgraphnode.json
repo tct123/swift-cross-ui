@@ -91,6 +91,10 @@
         "text" : "AnyViewGraphNode"
       }
     ],
+    "remoteSource" : {
+      "fileName" : "AnyViewGraphNode.swift",
+      "url" : "https:\/\/github.com\/stackotter\/swift-cross-ui\/blob\/main\/Sources\/SwiftCrossUI\/ViewGraph\/AnyViewGraphNode.swift#L5"
+    },
     "role" : "symbol",
     "roleHeading" : "Class",
     "symbolKind" : "class",
@@ -104,7 +108,7 @@
             "swift"
           ],
           "platforms" : [
-            "Linux"
+            "macOS"
           ],
           "tokens" : [
             {
@@ -173,9 +177,8 @@
       "identifiers" : [
         "doc:\/\/SwiftCrossUI\/documentation\/SwiftCrossUI\/EitherView",
         "doc:\/\/SwiftCrossUI\/documentation\/SwiftCrossUI\/EmptyView",
-        "doc:\/\/SwiftCrossUI\/documentation\/SwiftCrossUI\/EmptyViewGraphNodeChildren",
+        "doc:\/\/SwiftCrossUI\/documentation\/SwiftCrossUI\/EmptyViewChildren",
         "doc:\/\/SwiftCrossUI\/documentation\/SwiftCrossUI\/OptionalView",
-        "doc:\/\/SwiftCrossUI\/documentation\/SwiftCrossUI\/TableBuilder",
         "doc:\/\/SwiftCrossUI\/documentation\/SwiftCrossUI\/ViewGraph",
         "doc:\/\/SwiftCrossUI\/documentation\/SwiftCrossUI\/ViewGraphNode",
         "doc:\/\/SwiftCrossUI\/documentation\/SwiftCrossUI\/ViewGraphNodeChildren"
@@ -187,7 +190,7 @@
     {
       "identifiers" : [
         "doc:\/\/SwiftCrossUI\/documentation\/SwiftCrossUI\/AnyViewGraphNode\/init(_:)",
-        "doc:\/\/SwiftCrossUI\/documentation\/SwiftCrossUI\/AnyViewGraphNode\/init(for:backend:)"
+        "doc:\/\/SwiftCrossUI\/documentation\/SwiftCrossUI\/AnyViewGraphNode\/init(for:backend:snapshot:environment:)"
       ],
       "title" : "Initializers"
     },
@@ -201,8 +204,10 @@
     {
       "identifiers" : [
         "doc:\/\/SwiftCrossUI\/documentation\/SwiftCrossUI\/AnyViewGraphNode\/concreteNode(for:)",
-        "doc:\/\/SwiftCrossUI\/documentation\/SwiftCrossUI\/AnyViewGraphNode\/update()",
-        "doc:\/\/SwiftCrossUI\/documentation\/SwiftCrossUI\/AnyViewGraphNode\/update(with:)"
+        "doc:\/\/SwiftCrossUI\/documentation\/SwiftCrossUI\/AnyViewGraphNode\/getBackend()",
+        "doc:\/\/SwiftCrossUI\/documentation\/SwiftCrossUI\/AnyViewGraphNode\/getChildren()",
+        "doc:\/\/SwiftCrossUI\/documentation\/SwiftCrossUI\/AnyViewGraphNode\/getView()",
+        "doc:\/\/SwiftCrossUI\/documentation\/SwiftCrossUI\/AnyViewGraphNode\/update(with:proposedSize:environment:dryRun:)"
       ],
       "title" : "Instance Methods"
     }
@@ -224,7 +229,7 @@
 "doc://SwiftCrossUI/documentation/SwiftCrossUI": {
   "abstract" : [
     {
-      "text" : "Create cross-platform desktop apps for macOS, Linux and Windows.",
+      "text" : "Create cross-platform desktop apps for macOS, Linux, Windows, iOS and tvOS.",
       "type" : "text"
     }
   ],
@@ -405,6 +410,110 @@
   "type" : "topic",
   "url" : "\/documentation\/swiftcrossui\/anyviewgraphnode\/concretenode(for:)"
 },
+"doc://SwiftCrossUI/documentation/SwiftCrossUI/AnyViewGraphNode/getBackend()": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "getBackend"
+    },
+    {
+      "kind" : "text",
+      "text" : "() -> any "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:12SwiftCrossUI10AppBackendP",
+      "text" : "AppBackend"
+    }
+  ],
+  "identifier" : "doc:\/\/SwiftCrossUI\/documentation\/SwiftCrossUI\/AnyViewGraphNode\/getBackend()",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "getBackend()",
+  "type" : "topic",
+  "url" : "\/documentation\/swiftcrossui\/anyviewgraphnode\/getbackend()"
+},
+"doc://SwiftCrossUI/documentation/SwiftCrossUI/AnyViewGraphNode/getChildren()": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "getChildren"
+    },
+    {
+      "kind" : "text",
+      "text" : "() -> any "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:12SwiftCrossUI21ViewGraphNodeChildrenP",
+      "text" : "ViewGraphNodeChildren"
+    }
+  ],
+  "identifier" : "doc:\/\/SwiftCrossUI\/documentation\/SwiftCrossUI\/AnyViewGraphNode\/getChildren()",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "getChildren()",
+  "type" : "topic",
+  "url" : "\/documentation\/swiftcrossui\/anyviewgraphnode\/getchildren()"
+},
+"doc://SwiftCrossUI/documentation/SwiftCrossUI/AnyViewGraphNode/getView()": {
+  "abstract" : [
+    {
+      "text" : "Gets the node’s wrapped view.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "getView"
+    },
+    {
+      "kind" : "text",
+      "text" : "() -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "text" : "NodeView"
+    }
+  ],
+  "identifier" : "doc:\/\/SwiftCrossUI\/documentation\/SwiftCrossUI\/AnyViewGraphNode\/getView()",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "getView()",
+  "type" : "topic",
+  "url" : "\/documentation\/swiftcrossui\/anyviewgraphnode\/getview()"
+},
 "doc://SwiftCrossUI/documentation/SwiftCrossUI/AnyViewGraphNode/init(_:)": {
   "abstract" : [
     {
@@ -462,7 +571,7 @@
   "type" : "topic",
   "url" : "\/documentation\/swiftcrossui\/anyviewgraphnode\/init(_:)"
 },
-"doc://SwiftCrossUI/documentation/SwiftCrossUI/AnyViewGraphNode/init(for:backend:)": {
+"doc://SwiftCrossUI/documentation/SwiftCrossUI/AnyViewGraphNode/init(for:backend:snapshot:environment:)": {
   "abstract" : [
     {
       "text" : "Creates a new view graph node and immediately type-erases it.",
@@ -524,20 +633,63 @@
     },
     {
       "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "snapshot"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:12SwiftCrossUI20ViewGraphSnapshotterV",
+      "text" : "ViewGraphSnapshotter"
+    },
+    {
+      "kind" : "text",
+      "text" : "."
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:12SwiftCrossUI20ViewGraphSnapshotterV12NodeSnapshotV",
+      "text" : "NodeSnapshot"
+    },
+    {
+      "kind" : "text",
+      "text" : "?, "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "environment"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:12SwiftCrossUI17EnvironmentValuesV",
+      "text" : "EnvironmentValues"
+    },
+    {
+      "kind" : "text",
       "text" : ")"
     }
   ],
-  "identifier" : "doc:\/\/SwiftCrossUI\/documentation\/SwiftCrossUI\/AnyViewGraphNode\/init(for:backend:)",
+  "identifier" : "doc:\/\/SwiftCrossUI\/documentation\/SwiftCrossUI\/AnyViewGraphNode\/init(for:backend:snapshot:environment:)",
   "kind" : "symbol",
   "role" : "symbol",
-  "title" : "init(for:backend:)",
+  "title" : "init(for:backend:snapshot:environment:)",
   "type" : "topic",
-  "url" : "\/documentation\/swiftcrossui\/anyviewgraphnode\/init(for:backend:)"
+  "url" : "\/documentation\/swiftcrossui\/anyviewgraphnode\/init(for:backend:snapshot:environment:)"
 },
 "doc://SwiftCrossUI/documentation/SwiftCrossUI/AnyViewGraphNode/node": {
   "abstract" : [
     {
-      "text" : "The number getting wrapped.",
+      "text" : "The node getting wrapped.",
       "type" : "text"
     }
   ],
@@ -570,42 +722,26 @@
   "type" : "topic",
   "url" : "\/documentation\/swiftcrossui\/anyviewgraphnode\/node"
 },
-"doc://SwiftCrossUI/documentation/SwiftCrossUI/AnyViewGraphNode/update()": {
+"doc://SwiftCrossUI/documentation/SwiftCrossUI/AnyViewGraphNode/update(with:proposedSize:environment:dryRun:)": {
   "abstract" : [
     {
-      "text" : "Updates the view after its state changed.",
+      "text" : "Updates the view after it got recomputed (e.g. due to the parent’s state changing)",
       "type" : "text"
-    }
-  ],
-  "fragments" : [
-    {
-      "kind" : "keyword",
-      "text" : "func"
     },
     {
-      "kind" : "text",
-      "text" : " "
+      "text" : " ",
+      "type" : "text"
     },
     {
-      "kind" : "identifier",
-      "text" : "update"
+      "text" : "or after its own state changed (depending on the presence of ",
+      "type" : "text"
     },
     {
-      "kind" : "text",
-      "text" : "()"
-    }
-  ],
-  "identifier" : "doc:\/\/SwiftCrossUI\/documentation\/SwiftCrossUI\/AnyViewGraphNode\/update()",
-  "kind" : "symbol",
-  "role" : "symbol",
-  "title" : "update()",
-  "type" : "topic",
-  "url" : "\/documentation\/swiftcrossui\/anyviewgraphnode\/update()"
-},
-"doc://SwiftCrossUI/documentation/SwiftCrossUI/AnyViewGraphNode/update(with:)": {
-  "abstract" : [
+      "code" : "newView",
+      "type" : "codeVoice"
+    },
     {
-      "text" : "Updates the view after it was recomputed (e.g. due to the parent’s state changing).",
+      "text" : ").",
       "type" : "text"
     }
   ],
@@ -640,15 +776,80 @@
     },
     {
       "kind" : "text",
-      "text" : ")"
+      "text" : "?, "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "proposedSize"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:s5SIMD2V",
+      "text" : "SIMD2"
+    },
+    {
+      "kind" : "text",
+      "text" : "<"
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Si",
+      "text" : "Int"
+    },
+    {
+      "kind" : "text",
+      "text" : ">, "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "environment"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:12SwiftCrossUI17EnvironmentValuesV",
+      "text" : "EnvironmentValues"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "dryRun"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Sb",
+      "text" : "Bool"
+    },
+    {
+      "kind" : "text",
+      "text" : ") -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:12SwiftCrossUI16ViewUpdateResultV",
+      "text" : "ViewUpdateResult"
     }
   ],
-  "identifier" : "doc:\/\/SwiftCrossUI\/documentation\/SwiftCrossUI\/AnyViewGraphNode\/update(with:)",
+  "identifier" : "doc:\/\/SwiftCrossUI\/documentation\/SwiftCrossUI\/AnyViewGraphNode\/update(with:proposedSize:environment:dryRun:)",
   "kind" : "symbol",
   "role" : "symbol",
-  "title" : "update(with:)",
+  "title" : "update(with:proposedSize:environment:dryRun:)",
   "type" : "topic",
-  "url" : "\/documentation\/swiftcrossui\/anyviewgraphnode\/update(with:)"
+  "url" : "\/documentation\/swiftcrossui\/anyviewgraphnode\/update(with:proposedsize:environment:dryrun:)"
 },
 "doc://SwiftCrossUI/documentation/SwiftCrossUI/AnyViewGraphNode/widget": {
   "abstract" : [
@@ -781,7 +982,7 @@
   "type" : "topic",
   "url" : "\/documentation\/swiftcrossui\/emptyview"
 },
-"doc://SwiftCrossUI/documentation/SwiftCrossUI/EmptyViewGraphNodeChildren": {
+"doc://SwiftCrossUI/documentation/SwiftCrossUI/EmptyViewChildren": {
   "abstract" : [
     {
       "text" : "The children of a node with no children.",
@@ -799,21 +1000,21 @@
     },
     {
       "kind" : "identifier",
-      "text" : "EmptyViewGraphNodeChildren"
+      "text" : "EmptyViewChildren"
     }
   ],
-  "identifier" : "doc:\/\/SwiftCrossUI\/documentation\/SwiftCrossUI\/EmptyViewGraphNodeChildren",
+  "identifier" : "doc:\/\/SwiftCrossUI\/documentation\/SwiftCrossUI\/EmptyViewChildren",
   "kind" : "symbol",
   "navigatorTitle" : [
     {
       "kind" : "identifier",
-      "text" : "EmptyViewGraphNodeChildren"
+      "text" : "EmptyViewChildren"
     }
   ],
   "role" : "symbol",
-  "title" : "EmptyViewGraphNodeChildren",
+  "title" : "EmptyViewChildren",
   "type" : "topic",
-  "url" : "\/documentation\/swiftcrossui\/emptyviewgraphnodechildren"
+  "url" : "\/documentation\/swiftcrossui\/emptyviewchildren"
 },
 "doc://SwiftCrossUI/documentation/SwiftCrossUI/ForEach": {
   "abstract" : [
@@ -892,41 +1093,7 @@
   "type" : "topic",
   "url" : "\/documentation\/swiftcrossui\/optionalview"
 },
-"doc://SwiftCrossUI/documentation/SwiftCrossUI/TableBuilder": {
-  "abstract" : [
-    {
-      "text" : "A result builder for constructing a table’s columns.",
-      "type" : "text"
-    }
-  ],
-  "fragments" : [
-    {
-      "kind" : "keyword",
-      "text" : "struct"
-    },
-    {
-      "kind" : "text",
-      "text" : " "
-    },
-    {
-      "kind" : "identifier",
-      "text" : "TableBuilder"
-    }
-  ],
-  "identifier" : "doc:\/\/SwiftCrossUI\/documentation\/SwiftCrossUI\/TableBuilder",
-  "kind" : "symbol",
-  "navigatorTitle" : [
-    {
-      "kind" : "identifier",
-      "text" : "TableBuilder"
-    }
-  ],
-  "role" : "symbol",
-  "title" : "TableBuilder",
-  "type" : "topic",
-  "url" : "\/documentation\/swiftcrossui\/tablebuilder"
-},
-"doc://SwiftCrossUI/documentation/SwiftCrossUI/VariadicView1": {
+"doc://SwiftCrossUI/documentation/SwiftCrossUI/TupleView1": {
   "abstract" : [
     {
       "text" : "A view with exactly 1 children. Autogenerated as an alternative to Swift’s not yet",
@@ -952,23 +1119,23 @@
     },
     {
       "kind" : "identifier",
-      "text" : "VariadicView1"
+      "text" : "TupleView1"
     }
   ],
-  "identifier" : "doc:\/\/SwiftCrossUI\/documentation\/SwiftCrossUI\/VariadicView1",
+  "identifier" : "doc:\/\/SwiftCrossUI\/documentation\/SwiftCrossUI\/TupleView1",
   "kind" : "symbol",
   "navigatorTitle" : [
     {
       "kind" : "identifier",
-      "text" : "VariadicView1"
+      "text" : "TupleView1"
     }
   ],
   "role" : "symbol",
-  "title" : "VariadicView1",
+  "title" : "TupleView1",
   "type" : "topic",
-  "url" : "\/documentation\/swiftcrossui\/variadicview1"
+  "url" : "\/documentation\/swiftcrossui\/tupleview1"
 },
-"doc://SwiftCrossUI/documentation/SwiftCrossUI/VariadicView2": {
+"doc://SwiftCrossUI/documentation/SwiftCrossUI/TupleView2": {
   "abstract" : [
     {
       "text" : "A view with exactly 2 children. Autogenerated as an alternative to Swift’s not yet",
@@ -994,21 +1161,21 @@
     },
     {
       "kind" : "identifier",
-      "text" : "VariadicView2"
+      "text" : "TupleView2"
     }
   ],
-  "identifier" : "doc:\/\/SwiftCrossUI\/documentation\/SwiftCrossUI\/VariadicView2",
+  "identifier" : "doc:\/\/SwiftCrossUI\/documentation\/SwiftCrossUI\/TupleView2",
   "kind" : "symbol",
   "navigatorTitle" : [
     {
       "kind" : "identifier",
-      "text" : "VariadicView2"
+      "text" : "TupleView2"
     }
   ],
   "role" : "symbol",
-  "title" : "VariadicView2",
+  "title" : "TupleView2",
   "type" : "topic",
-  "url" : "\/documentation\/swiftcrossui\/variadicview2"
+  "url" : "\/documentation\/swiftcrossui\/tupleview2"
 },
 "doc://SwiftCrossUI/documentation/SwiftCrossUI/View": {
   "abstract" : [
@@ -1194,7 +1361,7 @@
       "type" : "text"
     },
     {
-      "identifier" : "doc:\/\/SwiftCrossUI\/documentation\/SwiftCrossUI\/VariadicView1",
+      "identifier" : "doc:\/\/SwiftCrossUI\/documentation\/SwiftCrossUI\/TupleView1",
       "isActive" : true,
       "type" : "reference"
     },
@@ -1207,7 +1374,7 @@
       "type" : "text"
     },
     {
-      "identifier" : "doc:\/\/SwiftCrossUI\/documentation\/SwiftCrossUI\/VariadicView2",
+      "identifier" : "doc:\/\/SwiftCrossUI\/documentation\/SwiftCrossUI\/TupleView2",
       "isActive" : true,
       "type" : "reference"
     },

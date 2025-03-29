@@ -56,6 +56,10 @@
         "name" : "SwiftCrossUI"
       }
     ],
+    "remoteSource" : {
+      "fileName" : "Slider.swift",
+      "url" : "https:\/\/github.com\/stackotter\/swift-cross-ui\/blob\/main\/Sources\/SwiftCrossUI\/Views\/Slider.swift#L7"
+    },
     "required" : true,
     "role" : "symbol",
     "roleHeading" : "Instance Property",
@@ -70,7 +74,7 @@
             "swift"
           ],
           "platforms" : [
-            "Linux"
+            "macOS"
           ],
           "tokens" : [
             {
@@ -137,7 +141,7 @@
 "doc://SwiftCrossUI/documentation/SwiftCrossUI": {
   "abstract" : [
     {
-      "text" : "Create cross-platform desktop apps for macOS, Linux and Windows.",
+      "text" : "Create cross-platform desktop apps for macOS, Linux, Windows, iOS and tvOS.",
       "type" : "text"
     }
   ],

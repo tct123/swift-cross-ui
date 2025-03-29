@@ -64,6 +64,7 @@
       },
       {
         "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:12SwiftCrossUI10AppBackendP6WidgetQa",
         "text" : "Widget"
       }
     ],
@@ -72,6 +73,10 @@
         "name" : "SwiftCrossUI"
       }
     ],
+    "remoteSource" : {
+      "fileName" : "AppBackend.swift",
+      "url" : "https:\/\/github.com\/stackotter\/swift-cross-ui\/blob\/main\/Sources\/SwiftCrossUI\/Backend\/AppBackend.swift#L275"
+    },
     "required" : true,
     "role" : "symbol",
     "roleHeading" : "Instance Method",
@@ -86,7 +91,7 @@
             "swift"
           ],
           "platforms" : [
-            "Linux"
+            "macOS"
           ],
           "tokens" : [
             {
@@ -114,7 +119,9 @@
               "text" : "."
             },
             {
+              "identifier" : "doc:\/\/SwiftCrossUI\/documentation\/SwiftCrossUI\/AppBackend\/Widget",
               "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:12SwiftCrossUI10AppBackendP6WidgetQa",
               "text" : "Widget"
             }
           ]
@@ -148,7 +155,7 @@
 "doc://SwiftCrossUI/documentation/SwiftCrossUI": {
   "abstract" : [
     {
-      "text" : "Create cross-platform desktop apps for macOS, Linux and Windows.",
+      "text" : "Create cross-platform desktop apps for macOS, Linux, Windows, iOS and tvOS.",
       "type" : "text"
     }
   ],
@@ -192,6 +199,32 @@
   "title" : "AppBackend",
   "type" : "topic",
   "url" : "\/documentation\/swiftcrossui\/appbackend"
+},
+"doc://SwiftCrossUI/documentation/SwiftCrossUI/AppBackend/Widget": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "associatedtype"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "Widget"
+    }
+  ],
+  "identifier" : "doc:\/\/SwiftCrossUI\/documentation\/SwiftCrossUI\/AppBackend\/Widget",
+  "kind" : "symbol",
+  "required" : true,
+  "role" : "symbol",
+  "title" : "Widget",
+  "type" : "topic",
+  "url" : "\/documentation\/swiftcrossui\/appbackend\/widget"
 },
 "doc://SwiftCrossUI/documentation/SwiftCrossUI/AppBackend/createTextView()": {
   "abstract" : [
@@ -244,6 +277,7 @@
     },
     {
       "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:12SwiftCrossUI10AppBackendP6WidgetQa",
       "text" : "Widget"
     }
   ],

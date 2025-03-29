@@ -53,6 +53,10 @@
         "text" : "Node"
       }
     ],
+    "remoteSource" : {
+      "fileName" : "TupleScene.swift",
+      "url" : "https:\/\/github.com\/stackotter\/swift-cross-ui\/blob\/main\/Sources\/SwiftCrossUI\/Scenes\/TupleScene.swift#L5"
+    },
     "role" : "symbol",
     "roleHeading" : "Type Alias",
     "symbolKind" : "typealias",
@@ -66,7 +70,7 @@
             "swift"
           ],
           "platforms" : [
-            "Linux"
+            "macOS"
           ],
           "tokens" : [
             {
@@ -97,7 +101,7 @@
             },
             {
               "kind" : "typeIdentifier",
-              "text" : "S0"
+              "text" : "Scene0"
             },
             {
               "kind" : "text",
@@ -105,7 +109,7 @@
             },
             {
               "kind" : "typeIdentifier",
-              "text" : "S1"
+              "text" : "Scene1"
             },
             {
               "kind" : "text",
@@ -142,7 +146,7 @@
 "doc://SwiftCrossUI/documentation/SwiftCrossUI": {
   "abstract" : [
     {
-      "text" : "Create cross-platform desktop apps for macOS, Linux and Windows.",
+      "text" : "Create cross-platform desktop apps for macOS, Linux, Windows, iOS and tvOS.",
       "type" : "text"
     }
   ],

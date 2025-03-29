@@ -44,6 +44,10 @@
         "text" : "NavigationStack"
       }
     ],
+    "remoteSource" : {
+      "fileName" : "NavigationStack.swift",
+      "url" : "https:\/\/github.com\/stackotter\/swift-cross-ui\/blob\/main\/Sources\/SwiftCrossUI\/Views\/NavigationStack.swift#L8"
+    },
     "role" : "symbol",
     "roleHeading" : "Structure",
     "symbolKind" : "struct",
@@ -57,7 +61,7 @@
             "swift"
           ],
           "platforms" : [
-            "Linux"
+            "macOS"
           ],
           "tokens" : [
             {
@@ -223,7 +227,7 @@
 "doc://SwiftCrossUI/documentation/SwiftCrossUI": {
   "abstract" : [
     {
-      "text" : "Create cross-platform desktop apps for macOS, Linux and Windows.",
+      "text" : "Create cross-platform desktop apps for macOS, Linux, Windows, iOS and tvOS.",
       "type" : "text"
     }
   ],
@@ -607,9 +611,17 @@
       "text" : ": "
     },
     {
+      "kind" : "keyword",
+      "text" : "some"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
       "kind" : "typeIdentifier",
-      "preciseIdentifier" : "s:12SwiftCrossUI9EmptyViewV",
-      "text" : "EmptyView"
+      "preciseIdentifier" : "s:12SwiftCrossUI4ViewP",
+      "text" : "View"
     }
   ],
   "identifier" : "doc:\/\/SwiftCrossUI\/documentation\/SwiftCrossUI\/NavigationStack\/body",
@@ -992,7 +1004,7 @@
 "doc://SwiftCrossUI/documentation/SwiftCrossUI/TableColumn": {
   "abstract" : [
     {
-      "text" : "A column that displays a view for each row in a table.",
+      "text" : "A labelled column with a view for each row in a table.",
       "type" : "text"
     }
   ],

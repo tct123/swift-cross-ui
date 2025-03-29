@@ -26,7 +26,7 @@
       "type" : "text"
     },
     {
-      "text" : "compatible with dispatching UI updates.",
+      "text" : "compatible with dispatching UI updates. Can be synchronous or asynchronous (for now).",
       "type" : "text"
     }
   ],
@@ -85,6 +85,10 @@
         "name" : "SwiftCrossUI"
       }
     ],
+    "remoteSource" : {
+      "fileName" : "AppBackend.swift",
+      "url" : "https:\/\/github.com\/stackotter\/swift-cross-ui\/blob\/main\/Sources\/SwiftCrossUI\/Backend\/AppBackend.swift#L169"
+    },
     "required" : true,
     "role" : "symbol",
     "roleHeading" : "Instance Method",
@@ -99,7 +103,7 @@
             "swift"
           ],
           "platforms" : [
-            "Linux"
+            "macOS"
           ],
           "tokens" : [
             {
@@ -174,7 +178,7 @@
 "doc://SwiftCrossUI/documentation/SwiftCrossUI": {
   "abstract" : [
     {
-      "text" : "Create cross-platform desktop apps for macOS, Linux and Windows.",
+      "text" : "Create cross-platform desktop apps for macOS, Linux, Windows, iOS and tvOS.",
       "type" : "text"
     }
   ],
@@ -247,7 +251,7 @@
       "type" : "text"
     },
     {
-      "text" : "compatible with dispatching UI updates.",
+      "text" : "compatible with dispatching UI updates. Can be synchronous or asynchronous (for now).",
       "type" : "text"
     }
   ],
